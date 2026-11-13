@@ -1,0 +1,97 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+@media screen and (max-width: 1100px) {
+    .title-form {
+        font-size: 1.3em;
+    }
+}
+
+body {
+    background: #888;
+}
+
+.content-form {
+    margin: 15px;
+    border: 2px solid #000;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #fff;
+}
+
+.title-form {
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+@media screen and (max-width: 500px) {
+    .title-form {
+        font-size: 1.3em;
+    }
+}
+
+.content-form-m, .content-form-p {
+    height: 30px;
+    padding: 7px;
+    margin-bottom: 5px;
+    border: none; border: 1px solid #22ae22;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.3em;
+}
+
+@media screen and (max-width: 500px) {
+    .content-form-m, .content-form-p {
+        font-size: 1.2em;
+    }
+}
+
+.content-btn-login {
+    margin: auto;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 5px;
+    border: none; border: 1px solid #2ef;
+    height: 30px;
+    font-size: 1.2em;
+    margin-top: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+.content-btn-login:hover {
+    background-color: rgba(34, 174, 255, 0.438);
+}
+
+.content-enlace {
+    margin: 5px;
+    color: #00f;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease;
+    max-width: 75px;
+}
+
+.content-enlace:hover {
+    text-decoration: underline dotted rgb(111, 0, 255) 2px;
+}
+
+@media screen and (max-width: 500px) {
+    .content-enlace {
+        font-size: 1.2em;
+    }
+}
