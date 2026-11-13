@@ -89,3 +89,8 @@ body {
         font-size: 1.2em;
     }
 }
+
+.content-form-msj {
+    transform: translate(5px, -5px);
+    color: #696565;
+}
